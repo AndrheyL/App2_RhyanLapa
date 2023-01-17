@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popupInfo"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:background="@drawable/cerclebackground">
+
+    <ImageView
+        android:id="@+id/logoPopup"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/logo_bdgttracker"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to El Rhyan's Money Budget-er"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/logoPopup"/>
+    
+    <TextView
+        android:id="@+id/popupDescription1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This Application is about managing your budget"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_below="@id/username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/popupDescription2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='Add a new item on the "+" icon'
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_below="@id/popupDescription1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/popupDescription3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='Swipe right to delete an item'
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_below="@id/popupDescription2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/popupDescription4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='This Application will keep track of your budget'
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_below="@id/popupDescription3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:gravity="center"/>
+
+</RelativeLayout>
